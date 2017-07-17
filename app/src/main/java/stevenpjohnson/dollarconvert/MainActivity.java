@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
             //display returned val to newCurrView
             TextView currOutput = (TextView) findViewById(R.id.newCurrView);
-            currOutput.setText(String.valueOf(currInputVal) + " " + currCodes.getSelectedItem());
+            String outputVal = String.format("%.2f", currInputVal);
+            currOutput.setText(outputVal + " " + currCodes.getSelectedItem());
         }
     }
 
