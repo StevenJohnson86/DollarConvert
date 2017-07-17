@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DollarConvert</string>
+
+    <string-array name="curr_codes">
+        <item>JPY</item>
+        <item>EUR</item>
+        <item>GBP</item>
+    </string-array>
 </resources>
